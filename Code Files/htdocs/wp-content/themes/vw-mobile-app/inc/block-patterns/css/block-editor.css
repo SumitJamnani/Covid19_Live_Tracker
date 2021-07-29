@@ -1,0 +1,52 @@
+.banner-section h1, .banner-section h4, .about-section h2, .about-section h3{ 
+  font-family: 'Kanit', sans-serif !important;
+}
+.banner-section p, .about-section p{ 
+  font-family: 'Roboto', sans-serif !important;
+}
+/*Banner section*/
+.banner-section .wp-block-search.block-editor-block-list__block.wp-block-search__button-inside.wp-block-search__icon-button{
+	width: 100%;
+}
+.banner-section .components-resizable-box__container.wp-block-search__inside-wrapper{
+	background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px 0 rgb(111, 111, 111, 0.3);
+  padding: 15px 10px;
+  width: 80%;
+}
+.banner-section input.wp-block-search__input {
+    margin: 0;
+}
+.banner-section button.wp-block-search__button.has-icon {
+    text-align: center;
+    float: right;
+    text-indent: -9999px;
+    background: url(../images/search.png) no-repeat scroll 0 0px;
+    border: none;
+    box-shadow: none !important;
+}
+.banner-section .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button{
+	padding: 0 15px;
+}
+.banner-section input[type="search"]{
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.banner-section .wp-block-search .wp-block-search__button svg{
+	display: none;
+}
+/*About section*/
+.about-section h2.block-editor-rich-text__editable.block-editor-block-list__block.wp-block:after{
+  content: "";
+  border-bottom: solid 5px #fd6c4f;
+  position: relative;
+  width: 15%;
+  margin: 10px auto;
+  display: block;
+  border-radius: 0px;
+}
+.about-section .wp-block-column.about-box.block-editor-block-list__block.wp-block.block-core-columns.block-editor-block-list__layout:hover{
+	box-shadow: 0 0 10px 2px #eee;
+}
